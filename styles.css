@@ -1,0 +1,60 @@
+
+div{
+    width: 120px;
+    height: 120px;
+    background-color: darkred;
+    border: 2px solid rgb(155, 47, 47);
+    margin: auto;
+    box-shadow: 7px 5px 5px rgba(58, 0, 0, 0.774);
+    border-radius: 13px;
+    
+}
+.transparent{
+    color: transparent;
+}
+.emoji{
+    font-size: 60px;
+    text-align: center;
+    line-height: 120px;
+}
+
+
+
+div:hover{
+    background-color: rgb(156, 6, 6);
+}
+#game-grid{
+    width: 600px;
+    height: 600px;
+    background-color:darkolivegreen;
+    border: 1px solid rgb(60, 75, 35);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    box-shadow: 5px 2px 2px rgba(21, 27, 11, 0.555);
+    border-radius: 10px;
+}
+
+
+h1{
+    margin: auto;
+    color:rgb(67, 85, 38);
+    text-shadow: 2px 2px 2px rgba(128, 128, 128, 0.466);
+
+    width: fit-content;
+    padding: 10px, 10px,10px,10px;
+    margin-top: 50px;
+}
+h5{
+    margin: auto;
+    color: brown;
+    text-shadow: 2px 2px 2px rgba(128, 128, 128, 0.466);
+    width: fit-content;
+    padding: 10px ;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+body{
+    background-color:antiquewhite;
+}
